@@ -1,11 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { InicioComponent } from './modules/inicio/pages/inicio/inicio.component';
+import { AvisosComponent } from './components/avisos/avisos.component';
 
 const routes: Routes = [
   {
     path: '',
     component: InicioComponent,
+  },
+  {
+    path: 'avisos',
+    component: AvisosComponent,
   },
   {
     path: '',

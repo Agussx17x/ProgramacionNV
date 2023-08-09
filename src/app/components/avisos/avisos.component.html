@@ -1,0 +1,14 @@
+<div class="wrapper">
+  <div class="carousel">
+    <div
+      *ngFor="let i of info"
+      class="carousel__item"
+    >
+      <div class="carousel__item-head">🐳</div>
+      <div class="carousel__item-body">
+        <p class="title">{{ i.titulo }}</p>
+        <p>{{ i.aviso }}</p>
+      </div>
+    </div>
+  </div>
+</div>
